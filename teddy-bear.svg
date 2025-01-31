@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 600">
+  <style>
+    svg {
+      width: 20vw;
+      max-width: 150px;
+    }
+    
+    #left-arm {
+      backface-visibility: hidden;
+      transform-origin: 70% 47%;
+      animation: hello 4s infinite;
+    }
+    
+    @keyframes hello {
+      0% {
+        transform: translate(0);
+        animation-timing-function: step-end;
+      }
+      1% {
+        transform: scalex(-1);
+        animation-timing-function: ease-in-out;
+      }
+      30% {
+        transform: scalex(-1) rotate(190deg);
+        animation-timing-function: ease-in-out;
+      }
+      31% {
+        transform: scalex(-1) rotate(190deg);
+        animation-timing-function: ease-in-out;    
+      }
+      45% {
+        transform: scalex(-1) rotate(130deg);
+        animation-timing-function: ease-in-out;    
+      }
+      60% {
+        transform: scalex(-1) rotate(190deg);
+        animation-timing-function: ease-in-out;    
+      }
+      75% {
+        transform: scalex(-1) rotate(130deg);
+        animation-timing-function: step-end;    
+      }
+      100% {
+        transform: rotate(0deg);
+      }  
+    }
+  </style>
+  <g id="legs">
+    <path d="M460,659c10.44-5.59,41.76-32,41.76-32,17.74-19.5,19.74-22.5,34.74-22.5s38,10,37,28c-1,17.44-32,55-32,55-10.83,15.16-28.31,31.93-54.83,50.88s-67.13-15.7-70.92-20-20-26-13.54-41.15,17.33-21.11,24.37-24.36,33.56-2.16,54.67,28.15" transform="translate(-398.2 -208.03)" fill="#df9146" stroke="#65150a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+    <path d="M466.86,707.35c-.55-2.52-4.25-19.37-21-25.45-.6-.22-12.5-4.38-21.45-.15-10.72,5.08-8.65,18.17-5,25.73C425.9,721,442.44,727.16,444.81,728c4.47,1.6,8.89,3.18,13.21,2.28C467.78,728.25,468.61,715.33,466.86,707.35Z" transform="translate(-398.2 -208.03)" fill="#f9cb73" stroke="#754c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path d="M780.23,673c-10.44-5.59-41.76-32-41.76-32-17.74-19.5-19.74-22.5-34.74-22.5s-38,10-37,28c1,17.44,32,55,32,55,10.83,15.16,28.31,31.93,54.83,50.88s67.13-15.7,70.92-20,20-26,13.53-41.15-17.32-21.11-24.36-24.36S780.09,664.68,759,695" transform="translate(-398.2 -208.03)" fill="#df9146" stroke="#65150a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+    <path d="M773.37,721.35c.55-2.52,4.25-19.37,21-25.45.6-.22,12.5-4.38,21.45-.15,10.72,5.08,8.65,18.17,5,25.73C814.33,735,797.79,741.16,795.42,742c-4.47,1.6-8.89,3.18-13.21,2.28C772.45,742.25,771.62,729.33,773.37,721.35Z" transform="translate(-398.2 -208.03)" fill="#f9cb73" stroke="#754c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+  <g id="body">
+    <path d="M753.5,590.71c-6,98.78-40.34,112.4-142,112.29-77-.08-115.52-35.23-118-107.22-2.68-77.56,20.83-189.09,120-188.28C732.17,408.47,760.07,482.47,753.5,590.71Z" transform="translate(-398.2 -208.03)" fill="#df9146" stroke="#65150a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+  </g>
+  <g id="head">
+    <g id="ear-right">
+      <circle cx="133.15" cy="45.98" r="43.22" fill="#df9146" stroke="#65150a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <circle cx="132.87" cy="50.28" r="22.44" fill="#f9cb73" stroke="#754c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g id="ear-left">
+      <circle cx="306.55" cy="45.72" r="43.22" fill="#df9146" stroke="#65150a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <circle cx="302.06" cy="50.22" r="22.24" fill="#f9cb73" stroke="#754c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <path id="face" d="M620.7,243.76c-5.75-.09-71.56,0-106.73,55C495,328.26,483.39,376.16,507.15,414c29.72,47.31,93.5,44.89,115.76,44,23.84-.9,77.94-3,105-45.94,24.15-38.36,13.27-87.91-9-119.3C685.44,245.7,629.43,243.89,620.7,243.76Z" transform="translate(-398.2 -208.03)" fill="#df9146" stroke="#65150a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+    <g id="snout">
+      <path d="M608,351.08c-25.32,1.63-56.64,19.09-58.07,44.08-1.28,22.29,21.94,38.07,25.73,40.64,21.52,14.63,53.59,16.56,76.16-.44,3-2.28,25.55-19.73,22.87-42.57C671.57,366.17,636.22,349.26,608,351.08Z" transform="translate(-398.2 -208.03)" fill="#f9cb73" stroke="#754c24" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <ellipse cx="611.33" cy="384.5" rx="17.6" ry="11.81" transform="translate(-418.42 -173.82) rotate(-3.15)" fill="#65150a"/>
+      <line x1="214" y1="188.24" x2="215.4" y2="213.6" fill="none" stroke="#65150a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+      <path d="M639.79,407c-.62,7.39-12.16,13.83-26.64,14.63S586.5,417.32,585.07,410" transform="translate(-398.2 -208.03)" fill="none" stroke="#65150a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+    </g>
+    <ellipse cx="557.18" cy="329.47" rx="11.69" ry="13.03" transform="translate(-415.48 -176.89) rotate(-3.15)" fill="#65150a"/>
+    <ellipse cx="674.78" cy="329.77" rx="11.69" ry="13.03" transform="translate(-415.31 -170.42) rotate(-3.15)" fill="#65150a"/>
+  </g>
+  <g id="left-arm">
+    <path id="left-arm-2" data-name="left-arm" d="M742.86,609.3c-13.56,3.59-33.15,1.72-40.26-9.59-6.73-10.71,6.08-19,6.19-45.42.05-13.72-2.4-43.74-5.76-59.19-2.46-11.3,3.15-30.23,13.86-34.24,6.13-2.3,12.38-3,18.36-1.36,9.66,2.62,15.61,10.37,20.16,17.81,11.35,18.56,41.21,67.39,18.42,106.4C771.33,588,761.81,604.29,742.86,609.3Z" transform="translate(-398.2 -208.03)" fill="#df9146" stroke="#65150a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+  </g>
+  <g id="right-arm">
+    <path id="right-arm-2" data-name="right-arm" d="M506.59,621.87c13.55,3.64,33.15,1.85,40.3-9.43,6.78-10.68-6-19-6-45.45,0-13.72,2.57-43.73,6-59.16,2.51-11.29-3-30.24-13.72-34.3-6.12-2.33-12.36-3-18.35-1.44-9.67,2.59-15.65,10.31-20.23,17.73-11.43,18.51-41.49,67.23-18.86,106.32C478.21,600.44,487.67,616.78,506.59,621.87Z" transform="translate(-398.2 -208.03)" fill="#df9146" stroke="#65150a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="5"/>
+  </g>
+</svg>
