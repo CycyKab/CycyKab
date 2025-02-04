@@ -36,6 +36,10 @@ I'm a **software developer** and **business analyst** with a diploma in **Busine
 - Business analysis
 - System modeling
 - UX design
+- Problem-Solving and critical thinking
+- Communication
+- Attention to details
+- Debugging
 - Database security
 - Agile methodologies
 
